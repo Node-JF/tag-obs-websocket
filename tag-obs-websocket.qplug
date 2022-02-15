@@ -6,7 +6,7 @@
 PluginInfo = {
   Name = "OBS Websocket",
   Version = "1.0",
-  BuildVersion = "0.0.0.18",
+  BuildVersion = "1.1.0.0",
   Id = "667567fa-1ad0-4c9c-ae16-db1b7152f525",
   Author = "Jason Foord",
   Description = "Control of OBS Studio via the Websocket extension."  
@@ -517,7 +517,6 @@ function GetControlLayout(props)
       Size = {110,16},
       Font = "Roboto",
       FontStyle = "Light",
-      IsReadOnly = true,
       Color = {204,204,204},
       HTextAlign = "Left",
     })
@@ -528,6 +527,7 @@ function GetControlLayout(props)
       TextBoxStyle = "Normal",
       Font = "Roboto",
       FontStyle = "Light",
+      IsReadOnly = true,
       Margin = 1,
       Color = {194,194,194},
       Position = {318+110,8+(16*(i-1))},
@@ -774,7 +774,7 @@ function GetControlLayout(props)
       Style = "Button",
       Position = {sections[3][1]+162,sections[3][2]+24+155},
       Size = {28,28},
-      Color = {31,31,31},
+      Color = {205,50,50},
       UnlinkOffColor = true,
       OffColor = {58,58,58},
       StrokeWidth = 0
