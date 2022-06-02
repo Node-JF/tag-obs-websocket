@@ -11,7 +11,7 @@ See [Q-SYS Online Help File - Plugins](https://q-syshelp.qsc.com/#Schematic_Libr
 ## Controls
 
 ### Configuration
-![Configuration Page](./Screenshots/configuration.png)
+![Configuration Page](./screenshots/configuration.png)
 
 #### Device Status
 
@@ -30,7 +30,7 @@ The Password configured in the *Tools -> Websocket Server Settings* dialogue men
 Toggles the Websocket connection.
 
 ### Dashboard
-![Configuration Page](./Screenshots/dashboard.png)
+![Configuration Page](./screenshots/dashboard.png)
 
 #### OBS Version
 
