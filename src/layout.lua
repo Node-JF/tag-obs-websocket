@@ -10,7 +10,7 @@ if CurrentPage == "Dashboard" then
     Size = {1000, 430}
   })
 
-  Logo = "--[[ #encode "logo.png" ]]"
+  Logo = "--[[ #encode "src/logo.png" ]]"
   table.insert(graphics,
     {Type = "Image",
     Image = Logo,

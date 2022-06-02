@@ -1,12 +1,8 @@
--- Basic Framework Plugin
--- by QSC
--- October 2020
-
 -- Information block for the plugin
 PluginInfo = {
   Name = "OBS Websocket",
   Version = "1.0",
-  BuildVersion = "1.1.0.0",
+  BuildVersion = "1.1.0.1",
   Id = "667567fa-1ad0-4c9c-ae16-db1b7152f525",
   Author = "Jason Foord",
   Description = "Control of OBS Studio via the Websocket extension."  
